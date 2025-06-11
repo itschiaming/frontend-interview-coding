@@ -126,17 +126,20 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  padding: 1rem;
-}
-
 nav {
   margin-bottom: 1rem;
   display: flex;
   gap: 1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  padding: 1rem;
 }
 
 section {
   padding: 1rem;
   margin-bottom: 2rem;
+  scroll-margin-top: 80px;
 }

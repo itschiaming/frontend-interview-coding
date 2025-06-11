@@ -2,7 +2,7 @@ import { useState } from "react";
 import Star from "../Star";
 
 function ExpectedStarRating() {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<null | number>(null);
   const [rating, setRating] = useState(3);
   const max = 5;
 
