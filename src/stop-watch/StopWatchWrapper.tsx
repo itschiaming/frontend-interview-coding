@@ -1,4 +1,4 @@
-import ExpectedStopWatch from "./ExpectedStopWatch";
+import ExpectedStopWatch from "./expected/ExpectedStopWatch";
 import StopWatch from "./StopWatch";
 
 function StopWatchWrapper() {
